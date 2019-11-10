@@ -5,12 +5,12 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Mvc;
+using RouteAttribute = System.Web.Mvc.RouteAttribute;
 
 namespace ComicBookGallery2.Controllers
 {
-    public class IndexController : Controller
+    public class HomeController : Controller
     {
-        [System.Web.Mvc.Route("/")]
         public ActionResult Index()
         {
             return View();
