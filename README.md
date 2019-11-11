@@ -1,1 +1,1 @@
-# comic-book-gallery
+# the-century-blog
